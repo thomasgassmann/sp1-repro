@@ -1,0 +1,15 @@
+[package]
+name = "runner"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "runner"
+path = "src/main.rs"
+
+[dependencies]
+sp1-core-executor = "4.1.4"
+sp1-core-machine = "4.1.4"
+sp1-prover = "4.1.4"
+sp1-sdk = { version = "4.1.4", features = ["profiling"] }
+sp1-stark = "4.1.4"
